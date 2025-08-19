@@ -1,7 +1,7 @@
 import { useRef, useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ScrollStack, { ScrollStackItem, ScrollStackRef } from "../../blocks/Components/ScrollStack/ScrollStack";
+import ScrollStack, { ScrollStackItem, type ScrollStackRef } from "../../blocks/Components/ScrollStack/ScrollStack";
 import SplitText from "../../blocks/TextAnimations/SplitText/SplitText";
 import { toolData } from "./toolsData";
 

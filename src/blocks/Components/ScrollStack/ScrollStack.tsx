@@ -4,13 +4,14 @@
 */
 
 import React, {
-  ReactNode,
   useLayoutEffect,
   useRef,
   useCallback,
   forwardRef,
   useImperativeHandle,
 } from "react";
+
+import type { ReactNode } from 'react';
 
 // Keep ScrollStackItem as it is
 export interface ScrollStackItemProps {

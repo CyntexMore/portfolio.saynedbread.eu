@@ -13,10 +13,10 @@ import React, {
 import {
   motion,
   AnimatePresence,
-  Transition,
+  type Transition,
   type VariantLabels,
   type Target,
-  type AnimationControls,
+  type animationControls,
   type TargetAndTransition,
 } from "motion/react";
 
