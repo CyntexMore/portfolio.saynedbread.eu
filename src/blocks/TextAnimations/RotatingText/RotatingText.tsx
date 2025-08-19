@@ -16,7 +16,7 @@ import {
   type Transition,
   type VariantLabels,
   type Target,
-  type animationControls,
+  animationControls,
   type TargetAndTransition,
 } from "motion/react";
 
@@ -39,7 +39,7 @@ export interface RotatingTextProps
   texts: string[];
   transition?: Transition;
   initial?: boolean | Target | VariantLabels;
-  animate?: boolean | VariantLabels | animationControls | TargetAndTransition;
+  animate?: boolean | VariantLabels | ReturnType<(typeof animationControls)> | TargetAndTransition;
   exit?: Target | VariantLabels;
   animatePresenceMode?: "sync" | "wait";
   animatePresenceInitial?: boolean;
